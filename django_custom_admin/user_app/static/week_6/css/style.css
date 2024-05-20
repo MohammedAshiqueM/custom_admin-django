@@ -1,0 +1,47 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    padding:10px;
+    top: 10%;
+    position: absolute;
+    box-shadow:-1px 0px 5px ;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    padding:10px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.login>h4{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-align: center;
+    margin-top: 25px;
+}
+.reg{
+    height: auto;
+    min-height: 430px;
+    top: 5%;
+}
